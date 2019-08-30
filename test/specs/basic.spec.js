@@ -6,7 +6,7 @@ describe('Tab Bar',() => {
         var findYourPerfectFit = $("//XCUIElementTypeStaticText[@name='Find Your Perfect Fit']");
         var myAccount = $('//XCUIElementTypeButton[@name="My Account"]');
         var MyAccountTitle = $("//XCUIElementTypeNavigationBar[@name='My Account']")
-        var myCart = $('//XCUIElementTypeButton[@name="Cart"]');
+        var myCart = $('//XCUIElementTypeButton[@name="My Cart"]');
         var MyCartTitle = $("//XCUIElementTypeNavigationBar[@name='My Cart']");
 
         catalog.touchAction('tap');
