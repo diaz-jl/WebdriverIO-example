@@ -48,8 +48,8 @@ exports.config = {
     //
     capabilities: [{
         appiumVersion: '1.13.0',
-        app: 'com.fitzframes.fitz',
-        deviceName: 'iPhone X',
+        app: '',
+        deviceName: 'iPhone Xs Max',
         platformVersion: '12.2',
         platformName: 'iOS',
         maxInstances: 1,
